@@ -8,7 +8,11 @@
 // `Pedro Pedroso`  => `P.P`
 
 function abbrevName(firstName, lastName){
-	
-
-	return;
+	const name1 = firstName;
+	const name2 = lastName;
+	return name1 + name2;
 }
+let initFistName = abbrevName("joão")
+let initLastName = abbrevName("viana")
+console.log(initFistName.charAt(0).toUpperCase() + "." + initLastName.charAt(0).toUpperCase());
+
