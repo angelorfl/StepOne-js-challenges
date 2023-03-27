@@ -18,7 +18,7 @@ for (let n = 2; n <= 100; n++){
     }   
 }
 
-console.log("Repetição de 100 a 1")
+console.log("Repetição for de 100 a 1")
 
 for (let number = 100; number >= 1; number--){
     console.log(number);
